@@ -38,3 +38,8 @@ class Test(models.Model):
     ha = models.CharField(max_length=256,)
     ha2 = models.DecimalField(max_digits=30, decimal_places=10, null=True, blank=True,)
     ha3 = models.CharField(max_length=256, null=True, blank=True,)
+
+
+class ModelForSpec(models.Model):
+    "Generated Model"
+    spec = models.CharField(max_length=256,)
