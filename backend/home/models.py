@@ -36,3 +36,4 @@ class HomePage(models.Model):
 class Test(models.Model):
     "Generated Model"
     ha = models.CharField(max_length=256,)
+    ha2 = models.DecimalField(max_digits=30, decimal_places=10, null=True, blank=True,)
